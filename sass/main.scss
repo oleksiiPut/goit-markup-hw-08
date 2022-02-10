@@ -1,0 +1,25 @@
+@import './utils/vars';
+@import './base/reset';
+@import './utils/placeholders';
+@import './base/common';
+@import './utils/v-hidden';
+
+// COMPONENTS
+
+@import './components/container';
+@import './components/section';
+@import './components/modal';
+
+// LAYOUT
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/specifics';
+@import './layout/about';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/filter-btns';
+@import './layout/examples';
+@import './layout/footer-address';
+@import './layout/footer-socials';
+@import './layout/footer-newsletter';
