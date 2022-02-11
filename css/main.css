@@ -1136,7 +1136,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -1144,7 +1143,6 @@ body {
   padding: 77px 24px;
   width: 100%;
   height: 100%;
-  overflow: scroll;
   transform: translateY(100%);
   transition-property: transform;
   transition-duration: var(--general-duration);
@@ -1153,6 +1151,22 @@ body {
 
 .examples-list__item:hover .img-thumb__text {
   transform: translateY(0);
+}
+
+@media screen and (max-width: 419px) {
+  .img-thumb__text {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .img-thumb__text {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {

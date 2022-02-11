@@ -54,7 +54,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -62,7 +61,6 @@
   padding: 77px 24px;
   width: 100%;
   height: 100%;
-  overflow: scroll;
   transform: translateY(100%);
 
   transition-property: transform;
@@ -71,6 +69,18 @@
 
   .examples-list__item:hover & {
     transform: translateY(0);
+  }
+
+  @media screen and (max-width: 419px) {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  @media screen and (min-width: 420px) {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   @media screen and (min-width: 768px) {
